@@ -83,6 +83,7 @@ $ nicknames --help
 
 
 ## Release History
+* 1.0.2: Add new nicknames.
 * 1.0.1: Update documentation.
 * 1.0.0: Initial release.
  

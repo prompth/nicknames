@@ -1,6 +1,6 @@
 {
   "name": "nicknames",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate nicknames",
   "license": "MIT",
   "homepage": "https://github.com/ryanburgess/nicknames",
@@ -38,7 +38,6 @@
     "array",
     "random",
     "rand",
-    "animal",
     "nicknames",
     "name",
     "names",
