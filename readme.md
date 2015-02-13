@@ -1,28 +1,23 @@
-# dog-names [![Build Status](https://travis-ci.org/sindresorhus/dog-names.svg?branch=master)](https://travis-ci.org/sindresorhus/dog-names)
+# Nicknames
 
-> Get popular dog names
-
-![](kira.jpg)
+> Get popular nicknames
 
 The name lists are just JSON files and can be used wherever.
-
-*Not accepting PRs for additional names.*
-
 
 ## Install
 
 ```
-$ npm install --save dog-names
+$ npm install --save nicknames
 ```
 
 
 ## Usage
 
 ```js
-var dogNames = require('dog-names');
+var nicknames = require('nicknames');
 
-dogNames.femaleRandom();
-//=> Lucy
+nicknames.femaleRandom();
+//=> Cookie
 ```
 
 
@@ -32,55 +27,55 @@ dogNames.femaleRandom();
 
 Type: `array`
 
-Top 100 female dog names sorted by popularity.
+Top 100 female nicknames sorted by popularity.
 
 ### .male
 
 Type: `array`
 
-Top 100 male dog names sorted by popularity.
+Top 100 male nicknames sorted by popularity.
 
 ### .all
 
 Type: `array`
 
-Top 200 dog names sorted by popularity.
+Top 200 nicknames sorted by popularity.
 
 ### .femaleRandom()
 
 Type: `function`
 
-Random female dog name.
+Random female nickname.
 
 ### .maleRandom()
 
 Type: `function`
 
-Random male dog name.
+Random male nickname.
 
 ### .allRandom()
 
 Type: `function`
 
-Random dog name.
+Random nickname.
 
 
 ## CLI
 
 ```
-$ npm install --global dog-names
+$ npm install --global nicknames
 ```
 
 ```
-$ dog-names --help
+$ nicknames --help
 
   Examples
-    $ dog-names
-    Lucy
+    $ nicknames
+    Cookie
 
-    $ dog-names --all --type male
-    Max
-    Buddy
+    $ nicknames --all --type male
+    Champ
+    Captain
     ...
 
   Options
@@ -90,10 +85,8 @@ $ dog-names --help
 
 
 ## Related
-
+- [`cat-names`](https://github.com/sindresorhus/dog-names) - Get popular dog names
 - [`cat-names`](https://github.com/sindresorhus/cat-names) - Get popular cat names
-- [`superb`](https://github.com/sindresorhus/superb) - Get superb like words
-
 
 ## License
 

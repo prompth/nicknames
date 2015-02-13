@@ -1,15 +1,15 @@
 #!/usr/bin/env node
 'use strict';
 var meow = require('meow');
-var dogNames = require('./');
+var nickNames = require('./');
 
 var cli = meow({
 	help: [
 		'Examples',
-		'  $ dog-names',
+		'  $ nicknames',
 		'  Lucy',
 		'',
-		'  $ dog-names --all --type male',
+		'  $ nicknames --all --type male',
 		'  Max',
 		'  Buddy',
 		'  ...',
@@ -21,4 +21,4 @@ var cli = meow({
 });
 
 var type = cli.flags.type || 'all';
-console.log(cli.flags.all ? dogNames[type].join('\n') : dogNames[type + 'Random']());
+console.log(cli.flags.all ? nickNames[type].join('\n') : nickNames[type + 'Random']());

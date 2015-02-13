@@ -1,16 +1,18 @@
 {
-  "name": "dog-names",
-  "version": "1.0.1",
-  "description": "Get popular dog names",
+  "name": "nicknames",
+  "version": "1.0.0",
+  "description": "Generate nicknames",
   "license": "MIT",
-  "repository": "sindresorhus/dog-names",
-  "bin": {
-    "dog-names": "cli.js"
+  "homepage": "https://github.com/ryanburgess/nicknames",
+  "bugs": {
+    "url": "https://github.com/ryanburgess/nicknames/issues"
   },
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryanburgess/nicknames.git"
+  },
+  "bin": {
+    "nicknames": "cli.js"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -21,8 +23,8 @@
   "files": [
     "index.js",
     "cli.js",
-    "female-dog-names.json",
-    "male-dog-names.json"
+    "female-nicknames.json",
+    "male-nicknames.json"
   ],
   "keywords": [
     "cli-app",
@@ -37,9 +39,7 @@
     "random",
     "rand",
     "animal",
-    "dog",
-    "dogs",
-    "puppy",
+    "nicknames",
     "name",
     "names",
     "female",
