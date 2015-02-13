@@ -1,5 +1,5 @@
 # Nicknames
-=============
+
 Generate male and female nicknames. Based off Sindre Sorhus' [Dog Names](https://github.com/sindresorhus/dog-names).
 
 ## Install
