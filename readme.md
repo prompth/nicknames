@@ -1,8 +1,6 @@
 # Nicknames
-
-> Get popular nicknames
-
-The name lists are just JSON files and can be used wherever.
+=============
+Generate male and female nicknames. Based off Sindre Sorhus' [Dog Names](https://github.com/sindresorhus/dog-names).
 
 ## Install
 
@@ -84,10 +82,17 @@ $ nicknames --help
 ```
 
 
-## Related
-- [`cat-names`](https://github.com/sindresorhus/dog-names) - Get popular dog names
-- [`cat-names`](https://github.com/sindresorhus/cat-names) - Get popular cat names
+## Release History
+* 1.0.1: Update documentation.
+* 1.0.0: Initial release.
+ 
+## Contributing
+1. Fork it
+2. Run `npm install`
+3. Create your feature branch (`git checkout -b my-new-feature`)
+4. Commit your changes (`git commit -am "Add some feature"`)
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create new Pull Request
 
 ## License
-
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Ryan Burgess](http://github.com/ryanburgess)
