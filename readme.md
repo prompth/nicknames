@@ -1,4 +1,4 @@
-# Nicknames
+# Nicknames [![Build Status](https://travis-ci.org/ryanburgess/nicknames.svg?branch=master)](https://travis-ci.org/ryanburgess/nicknames)
 
 Generate male and female nicknames. Based off Sindre Sorhus' [Dog Names](https://github.com/sindresorhus/dog-names).
 
